@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1579724205129" stop="1579724223059" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can only view the result by selected property class | 4starred |</name>
+    <title>Verify user can only view the result by selected property class | 4starred |</title>
+    <test-cases>
+        <test-case start="1579724205130" stop="1579724205130" status="passed">
+            <name>Given I am on Hotels Home Page</name>
+            <title>Given I am on Hotels Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32841@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579724209712" stop="1579724209712" status="passed">
+            <name>Given Initialize the browser</name>
+            <title>Given Initialize the browser</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32841@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579724221400" stop="1579724221400" status="passed">
+            <name>Given I am on default locations search result screen</name>
+            <title>Given I am on default locations search result screen</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32841@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579724222918" stop="1579724222918" status="passed">
+            <name>When I select property class 4starred hotels</name>
+            <title>When I select property class 4starred hotels</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32841@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579724222919" stop="1579724222919" status="passed">
+            <name>Then I verify system displays only 4starred hotels on search result</name>
+            <title>Then I verify system displays only 4starred hotels on search result</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32841@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can only view the result by selected property class | 4starred |"/>
+        <label name="feature" value="Hotels feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

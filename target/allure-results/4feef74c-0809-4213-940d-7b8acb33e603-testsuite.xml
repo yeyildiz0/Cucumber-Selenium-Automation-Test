@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1579717310976" stop="1579717334709" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can only view the result by selected property class | 3starred |</name>
+    <title>Verify user can only view the result by selected property class | 3starred |</title>
+    <test-cases>
+        <test-case start="1579717311164" stop="1579717311166" status="passed">
+            <name>Given I am on Hotels Home Page</name>
+            <title>Given I am on Hotels Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="31845@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579717334678" stop="1579717334690" status="broken">
+            <name>Given Initialize the browser</name>
+            <title>Given Initialize the browser</title>
+            <failure>
+                <message>NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Yunuss-MacBook-Pro.local', ip: '2607:fb90:a693:1d87:c5be:5a60:ab5b:751c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/vw/7t0rzylj0ns...}, goog:chromeOptions: {debuggerAddress: localhost:62100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 251ac77148c8ba1cb35dd04bb720d54a</message>
+                <stack-trace>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Yunuss-MacBook-Pro.local', ip: '2607:fb90:a693:1d87:c5be:5a60:ab5b:751c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/vw/7t0rzylj0ns...}, goog:chromeOptions: {debuggerAddress: localhost:62100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 251ac77148c8ba1cb35dd04bb720d54a
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:690)
+	at util.BasePage.initDriver(BasePage.java:52)
+	at stepdefinition.HotelsPage1SD.initializeTheBrowser(HotelsPage1SD.java:24)
+	at ✽.Given Initialize the browser(HotelsPage1.feature:9)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="31845@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579717334693" stop="1579717334694" status="pending">
+            <name>Given I am on default locations search result screen</name>
+            <title>Given I am on default locations search result screen</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="31845@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579717334695" stop="1579717334695" status="pending">
+            <name>When I select property class 3starred hotels</name>
+            <title>When I select property class 3starred hotels</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="31845@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579717334696" stop="1579717334696" status="pending">
+            <name>Then I verify system displays only 3starred hotels on search result</name>
+            <title>Then I verify system displays only 3starred hotels on search result</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="31845@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can only view the result by selected property class | 3starred |"/>
+        <label name="feature" value="Hotels feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

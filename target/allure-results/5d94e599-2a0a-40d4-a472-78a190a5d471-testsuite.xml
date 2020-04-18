@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1579723140421" stop="1579723141176" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can only view the result by selected property class | 3starred |</name>
+    <title>Verify user can only view the result by selected property class | 3starred |</title>
+    <test-cases>
+        <test-case start="1579723140440" stop="1579723140442" status="passed">
+            <name>Given I am on Hotels Home Page</name>
+            <title>Given I am on Hotels Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32361@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723140681" stop="1579723140692" status="broken">
+            <name>Given Initialize the browser</name>
+            <title>Given Initialize the browser</title>
+            <failure>
+                <message>IllegalStateException: The driver executable does not exist: /Users/yeyildiz/eclipse-workspace/CucumberHotelsFrameworksrc/test/java/util/geckodriver</message>
+                <stack-trace>java.lang.IllegalStateException: The driver executable does not exist: /Users/yeyildiz/eclipse-workspace/CucumberHotelsFrameworksrc/test/java/util/geckodriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:43)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:168)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)
+	at util.BasePage.initDriver(BasePage.java:47)
+	at stepdefinition.HotelsPage1SD.initializeTheBrowser(HotelsPage1SD.java:24)
+	at ✽.Given Initialize the browser(HotelsPage1.feature:9)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32361@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723140694" stop="1579723140694" status="pending">
+            <name>Given I am on default locations search result screen</name>
+            <title>Given I am on default locations search result screen</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32361@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723140696" stop="1579723140696" status="pending">
+            <name>When I select property class 3starred hotels</name>
+            <title>When I select property class 3starred hotels</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32361@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723140697" stop="1579723140697" status="pending">
+            <name>Then I verify system displays only 3starred hotels on search result</name>
+            <title>Then I verify system displays only 3starred hotels on search result</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32361@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can only view the result by selected property class | 3starred |"/>
+        <label name="feature" value="Hotels feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

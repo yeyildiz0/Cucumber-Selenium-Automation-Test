@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: | 3starred |
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.704 sec <<< FAILURE! - in | 3starred |
+Given Initialize the browser(| 3starred |)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/yeyildiz/eclipse-workspace/CucumberHotelsFrameworksrc/test/java/util/geckodriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:43)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:168)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:168)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at util.BasePage.initDriver(BasePage.java:47)
+	at stepdefinition.HotelsPage1SD.initializeTheBrowser(HotelsPage1SD.java:24)
+	at ✽.Given Initialize the browser(HotelsPage1.feature:9)
+

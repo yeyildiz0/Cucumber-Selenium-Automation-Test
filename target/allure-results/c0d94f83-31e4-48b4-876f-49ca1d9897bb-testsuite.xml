@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1579723270687" stop="1579723270702" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify user can only view the result by selected property class | 5starred |</name>
+    <title>Verify user can only view the result by selected property class | 5starred |</title>
+    <test-cases>
+        <test-case start="1579723270687" stop="1579723270688" status="broken">
+            <name>Given I am on Hotels Home Page</name>
+            <title>Given I am on Hotels Home Page</title>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Yunuss-MacBook-Pro.local', ip: 'fe80:0:0:0:186f:ed70:fa92:9a4b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/vw/7t0rzylj0ns...}, goog:chromeOptions: {debuggerAddress: localhost:64841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bac0724a315e211073980f681b6c789d</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Yunuss-MacBook-Pro.local', ip: 'fe80:0:0:0:186f:ed70:fa92:9a4b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/vw/7t0rzylj0ns...}, goog:chromeOptions: {debuggerAddress: localhost:64841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bac0724a315e211073980f681b6c789d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:286)
+	at stepdefinition.HotelsPage1SD.iAmOnHotelsPage(HotelsPage1SD.java:30)
+	at ✽.Given I am on Hotels Home Page(HotelsPage1.feature:5)
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32419@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723270689" stop="1579723270689" status="pending">
+            <name>Given Initialize the browser</name>
+            <title>Given Initialize the browser</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32419@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723270690" stop="1579723270690" status="pending">
+            <name>Given I am on default locations search result screen</name>
+            <title>Given I am on default locations search result screen</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32419@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723270690" stop="1579723270690" status="pending">
+            <name>When I select property class 5starred hotels</name>
+            <title>When I select property class 5starred hotels</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32419@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1579723270691" stop="1579723270691" status="pending">
+            <name>Then I verify system displays only 5starred hotels on search result</name>
+            <title>Then I verify system displays only 5starred hotels on search result</title>
+            <failure>
+                <message>Test ignored (without reason)!</message>
+                <stack-trace>There are no stack trace</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Yunuss-MacBook-Pro.local"/>
+                <label name="thread" value="32419@Yunuss-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify user can only view the result by selected property class | 5starred |"/>
+        <label name="feature" value="Hotels feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
